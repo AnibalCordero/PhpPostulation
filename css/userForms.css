@@ -1,0 +1,64 @@
+.userListTitle{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CA2DE;
+}
+.createUserTitle{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4CA2DE;
+}
+
+.userAddBtnContainer{
+    display: block;
+    max-width: 30px;
+    float: right;
+}
+
+.returnBtnContainer{
+    display: block;
+    max-width: 30px;
+    float: left;
+}
+
+.userListContainer,.userFormContainer{
+    padding: 30px;
+    border-bottom: 1px solid #555;
+}
+
+#usersListContainer{
+    overflow-y: scroll;
+    height: calc(100vh - 110px);
+}
+
+.userListTitleRow{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.userRow{
+    margin: 5px;
+    text-align: center;
+}
+
+.inputError{
+    border: 1px solid #F44336;
+}
+
+#userFormErrMsg{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #F44336;
+    padding: 5px 0px;
+}
+
+#userPassMessage{
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    color: #777;
+}

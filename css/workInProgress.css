@@ -1,0 +1,26 @@
+.workInProgressContainer{
+    margin: 15% 25%;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding-top: 8%;
+    -webkit-box-shadow: 0px 0px 14px 1px rgb(153 153 153);
+    -moz-box-shadow: 0px 0px 14px 1px rgba(153,153,153,1);
+    box-shadow: 0px 0px 14px 1px rgb(153 153 153);
+    border-radius: 30px;
+    background-color: #FDFDFD;
+}
+
+.wIPIcon{
+    background-color: #FFF;
+    border-top:1px solid #EEf;
+    border-bottom:1px solid #EEf;
+    font-size: 100px;
+    color: #FFC107;
+}
+
+.wIPTitle{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}

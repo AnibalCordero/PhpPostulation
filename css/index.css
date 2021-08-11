@@ -1,0 +1,59 @@
+/* Menu CSS */
+#appMenu{
+    display: inline-block;
+    height: 100vh;
+    max-width: 19vw;
+    padding: 10px;
+    border-right: 1px solid #AAA;
+}
+
+
+#logOutBtnContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+
+#logOutBtn{
+    background-color: #6DB2DE;
+    padding: 3px 6px;
+    color: #FFF;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid #CCC;
+    cursor: pointer;
+    user-select: none;
+}
+
+#menuUserName{
+    color: #4CA2DE;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menuButon{
+    padding: 5px;
+    margin: 10px 10px 10px 0px;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #AAA;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.menuButon:active{
+    background-color: #6DB2DE;
+    color: #FFF;
+    border: 1px solid #6DB2DE;
+}
+
+/* OUTLET CONTAINER */
+
+#appOutlet{
+    display: inline-block;
+    height: 100vh;
+    max-width: 80vw;
+    padding: 10px;
+}
